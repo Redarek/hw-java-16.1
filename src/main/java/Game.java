@@ -21,9 +21,8 @@ public class Game {
             } else {
                 return 0;
             }
-        }
-        else {
-            throw new NotRegisteredException("Игрок не прошел регистрацию" );
+        } else {
+            throw new NotRegisteredException("Игрок не прошел регистрацию");
         }
     }
 
